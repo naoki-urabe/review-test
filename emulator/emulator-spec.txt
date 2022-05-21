@@ -1,0 +1,16 @@
+Emulator{
+    registers: 配列。要素数は8、32ビットの符号なし整数である。
+    eflags   : 32ビットの符号なし整数
+    memory   : 可変長配列
+    eip      : 32ビットの符号なし整数
+}
+
+/* 
+    size    メモリ長
+    eip     eip初期値
+    esp     esp初期値
+*/ 
+func create_emu(size, eip, esp){
+    インスタンスを生成
+    初期値をそれぞれ設定
+}
