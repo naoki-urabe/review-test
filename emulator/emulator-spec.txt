@@ -1,7 +1,7 @@
 Emulator{
     registers: 配列。要素数は8、32ビットの符号なし整数である。
     eflags   : 32ビットの符号なし整数
-    memory   : 可変長配列
+    memory   : 8ビットの可変長配列
     eip      : 32ビットの符号なし整数
 }
 
